@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 9}
-  m_MinSize: {x: 950, y: 666}
+  m_MinSize: {x: 950, y: 644}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -39,18 +39,18 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 709
+    y: 752
     width: 1920
-    height: 238
-  m_MinSize: {x: 100, y: 122}
-  m_MaxSize: {x: 4000, y: 4022}
-  m_ActualView: {fileID: 13}
+    height: 195
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 23}
   m_Panes:
   - {fileID: 23}
   - {fileID: 16}
   - {fileID: 13}
-  m_Selected: 2
-  m_LastSelected: 1
+  m_Selected: 0
+  m_LastSelected: 2
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -72,10 +72,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 713, y: 616}
-  m_MaxSize: {x: 18008, y: 18066}
+  m_MinSize: {x: 711, y: 594}
+  m_MaxSize: {x: 18006, y: 18044}
   vertical: 1
-  controlID: 133
+  controlID: 117
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -92,9 +92,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 304
-    width: 462
-    height: 405
+    y: 319
+    width: 461
+    height: 433
   m_MinSize: {x: 232, y: 272}
   m_MaxSize: {x: 10002, y: 10022}
   m_ActualView: {fileID: 18}
@@ -121,12 +121,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 462
-    height: 709
-  m_MinSize: {x: 232, y: 494}
-  m_MaxSize: {x: 10002, y: 14044}
+    width: 461
+    height: 752
+  m_MinSize: {x: 232, y: 472}
+  m_MaxSize: {x: 10002, y: 14022}
   vertical: 1
-  controlID: 110
+  controlID: 20
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,11 +148,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1920
-    height: 709
-  m_MinSize: {x: 713, y: 494}
-  m_MaxSize: {x: 18008, y: 14044}
+    height: 752
+  m_MinSize: {x: 711, y: 472}
+  m_MaxSize: {x: 18006, y: 14022}
   vertical: 0
-  controlID: 134
+  controlID: 118
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,9 +171,9 @@ MonoBehaviour:
     x: 1366
     y: 0
     width: 554
-    height: 709
-  m_MinSize: {x: 277, y: 72}
-  m_MaxSize: {x: 4002, y: 4022}
+    height: 752
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -197,10 +197,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 462
-    height: 304
-  m_MinSize: {x: 202, y: 222}
-  m_MaxSize: {x: 4002, y: 4022}
+    width: 461
+    height: 319
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -288,10 +288,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 462
+    x: 461
     y: 0
-    width: 904
-    height: 709
+    width: 905
+    height: 752
   m_MinSize: {x: 204, y: 222}
   m_MaxSize: {x: 4004, y: 4022}
   m_ActualView: {fileID: 21}
@@ -323,14 +323,14 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 782
-    width: 1920
-    height: 219
+    x: 8
+    y: 778
+    width: 1904
+    height: 215
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -5268
+  m_LastSelectedObjectID: 23852
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -453,7 +453,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   Collection:
     filter: 0
-    lastUpdateTime: Aug 29, 23:11
+    lastUpdateTime: Aug 30, 22:22
     listPackagesOffline:
     - Name: com.unity.2d.sprite
       DisplayName: 2D Sprite
@@ -588,7 +588,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -691,7 +691,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -794,7 +794,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -897,7 +897,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -1000,7 +1000,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -1103,7 +1103,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -1206,7 +1206,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -1309,7 +1309,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -1412,7 +1412,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -1515,7 +1515,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -1618,7 +1618,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -1721,7 +1721,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -1824,7 +1824,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -1927,7 +1927,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -2030,7 +2030,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -2133,7 +2133,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -2236,7 +2236,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -2339,7 +2339,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -2442,7 +2442,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -2545,7 +2545,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -2648,7 +2648,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -2751,7 +2751,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -2854,7 +2854,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -2957,7 +2957,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -3060,7 +3060,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -3163,7 +3163,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -3278,7 +3278,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -3393,7 +3393,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -3508,7 +3508,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -3623,7 +3623,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -3738,7 +3738,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -3853,7 +3853,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -3968,7 +3968,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -4083,7 +4083,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -4198,7 +4198,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -4313,7 +4313,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -4428,7 +4428,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -4543,7 +4543,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -4658,7 +4658,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -4773,7 +4773,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -4888,7 +4888,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -5003,7 +5003,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -5118,7 +5118,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -5233,7 +5233,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -5348,7 +5348,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -5463,7 +5463,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -5578,7 +5578,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -5693,7 +5693,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -5808,7 +5808,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -5923,7 +5923,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -6038,7 +6038,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -6153,7 +6153,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -6268,7 +6268,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -6383,7 +6383,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -6500,7 +6500,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.3.4
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.cinemachine@2.3.4
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.cinemachine@2.3.4
         m_AssetPath: Packages/com.unity.cinemachine
         m_Name: com.unity.cinemachine
         m_DisplayName: Cinemachine
@@ -6593,7 +6593,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.3.4
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.cinemachine@2.3.4
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.cinemachine@2.3.4
         m_AssetPath: Packages/com.unity.cinemachine
         m_Name: com.unity.cinemachine
         m_DisplayName: Cinemachine
@@ -6686,7 +6686,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.3.4
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.cinemachine@2.3.4
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.cinemachine@2.3.4
         m_AssetPath: Packages/com.unity.cinemachine
         m_Name: com.unity.cinemachine
         m_DisplayName: Cinemachine
@@ -6777,7 +6777,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -6851,7 +6851,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -6925,7 +6925,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -6999,7 +6999,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -7073,7 +7073,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -7147,7 +7147,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -7209,7 +7209,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -7271,7 +7271,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -7333,7 +7333,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -7396,7 +7396,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -7461,7 +7461,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -7526,7 +7526,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -7591,7 +7591,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -7656,7 +7656,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.7
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.vscode@1.0.7
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.vscode@1.0.7
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -7717,7 +7717,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.7
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.vscode@1.0.7
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.vscode@1.0.7
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -7778,7 +7778,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.7
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.vscode@1.0.7
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.vscode@1.0.7
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -7839,7 +7839,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.7
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.vscode@1.0.7
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.vscode@1.0.7
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -7975,7 +7975,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -8107,7 +8107,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -8239,7 +8239,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -8371,7 +8371,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -8503,7 +8503,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -8635,7 +8635,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -8767,7 +8767,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -8899,7 +8899,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -9031,7 +9031,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -9163,7 +9163,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -9295,7 +9295,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -9427,7 +9427,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -9559,7 +9559,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -9691,7 +9691,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -9823,7 +9823,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -9955,7 +9955,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -10087,7 +10087,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -10219,7 +10219,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -10351,7 +10351,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -10483,7 +10483,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -10615,7 +10615,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -10747,7 +10747,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -10861,7 +10861,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -10945,7 +10945,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -11029,7 +11029,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -11113,7 +11113,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -11197,7 +11197,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -11281,7 +11281,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -11365,7 +11365,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -11449,7 +11449,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -11533,7 +11533,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -11617,7 +11617,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -11701,7 +11701,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -11785,7 +11785,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -11869,7 +11869,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -11953,7 +11953,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -12063,7 +12063,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -12216,7 +12216,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -12369,7 +12369,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -12522,7 +12522,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -12675,7 +12675,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -12828,7 +12828,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -12981,7 +12981,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -13134,7 +13134,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -13287,7 +13287,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -13440,7 +13440,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -13593,7 +13593,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -13746,7 +13746,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -13899,7 +13899,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -14052,7 +14052,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -14205,7 +14205,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -14358,7 +14358,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -14511,7 +14511,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -14664,7 +14664,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -14817,7 +14817,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -14970,7 +14970,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -15123,7 +15123,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -15276,7 +15276,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -17406,7 +17406,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -17509,7 +17509,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -17612,7 +17612,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -17715,7 +17715,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -17818,7 +17818,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -17921,7 +17921,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -18024,7 +18024,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -18127,7 +18127,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -18230,7 +18230,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -18333,7 +18333,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -18436,7 +18436,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -18539,7 +18539,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -18642,7 +18642,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -18745,7 +18745,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -18848,7 +18848,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -18951,7 +18951,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -19054,7 +19054,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -19157,7 +19157,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -19260,7 +19260,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -19363,7 +19363,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -19466,7 +19466,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -19569,7 +19569,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -19672,7 +19672,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -19775,7 +19775,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -19878,7 +19878,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.8
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ads@2.0.8
         m_AssetPath: Packages/com.unity.ads
         m_Name: com.unity.ads
         m_DisplayName: 
@@ -19981,7 +19981,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -20096,7 +20096,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -20211,7 +20211,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -20326,7 +20326,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -20441,7 +20441,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -20556,7 +20556,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -20671,7 +20671,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -20786,7 +20786,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -20901,7 +20901,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -21016,7 +21016,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -21131,7 +21131,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -21246,7 +21246,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -21361,7 +21361,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -21476,7 +21476,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -21591,7 +21591,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -21706,7 +21706,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -21821,7 +21821,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -21936,7 +21936,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -22051,7 +22051,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -22166,7 +22166,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -22281,7 +22281,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -22396,7 +22396,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -22511,7 +22511,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -22626,7 +22626,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -22741,7 +22741,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -22856,7 +22856,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -22971,7 +22971,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -23086,7 +23086,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -23201,7 +23201,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -23318,7 +23318,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.3.4
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.cinemachine@2.3.4
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.cinemachine@2.3.4
         m_AssetPath: Packages/com.unity.cinemachine
         m_Name: com.unity.cinemachine
         m_DisplayName: Cinemachine
@@ -23411,7 +23411,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.3.4
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.cinemachine@2.3.4
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.cinemachine@2.3.4
         m_AssetPath: Packages/com.unity.cinemachine
         m_Name: com.unity.cinemachine
         m_DisplayName: Cinemachine
@@ -23504,7 +23504,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.3.4
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.cinemachine@2.3.4
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.cinemachine@2.3.4
         m_AssetPath: Packages/com.unity.cinemachine
         m_Name: com.unity.cinemachine
         m_DisplayName: Cinemachine
@@ -23595,7 +23595,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -23669,7 +23669,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -23743,7 +23743,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -23817,7 +23817,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -23891,7 +23891,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -23965,7 +23965,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -24027,7 +24027,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -24089,7 +24089,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -24151,7 +24151,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -24214,7 +24214,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -24279,7 +24279,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -24344,7 +24344,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -24409,7 +24409,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -24474,7 +24474,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.7
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.vscode@1.0.7
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.vscode@1.0.7
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -24535,7 +24535,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.7
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.vscode@1.0.7
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.vscode@1.0.7
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -24596,7 +24596,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.7
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.vscode@1.0.7
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.vscode@1.0.7
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -24657,7 +24657,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.7
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.vscode@1.0.7
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.vscode@1.0.7
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -24793,7 +24793,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -24925,7 +24925,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -25057,7 +25057,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -25189,7 +25189,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -25321,7 +25321,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -25453,7 +25453,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -25585,7 +25585,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -25717,7 +25717,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -25849,7 +25849,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -25981,7 +25981,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -26113,7 +26113,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -26245,7 +26245,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -26377,7 +26377,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -26509,7 +26509,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -26641,7 +26641,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -26773,7 +26773,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -26905,7 +26905,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -27037,7 +27037,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -27169,7 +27169,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -27301,7 +27301,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -27433,7 +27433,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -27565,7 +27565,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -27679,7 +27679,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -27763,7 +27763,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -27847,7 +27847,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -27931,7 +27931,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -28015,7 +28015,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -28099,7 +28099,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -28183,7 +28183,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -28267,7 +28267,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -28351,7 +28351,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -28435,7 +28435,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -28519,7 +28519,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -28603,7 +28603,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -28687,7 +28687,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -28771,7 +28771,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -28881,7 +28881,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -29034,7 +29034,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -29187,7 +29187,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -29340,7 +29340,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -29493,7 +29493,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -29646,7 +29646,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -29799,7 +29799,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -29952,7 +29952,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -30105,7 +30105,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -30258,7 +30258,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -30411,7 +30411,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -30564,7 +30564,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -30717,7 +30717,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -30870,7 +30870,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -31023,7 +31023,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -31176,7 +31176,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -31329,7 +31329,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -31482,7 +31482,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -31635,7 +31635,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -31788,7 +31788,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -31941,7 +31941,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -32094,7 +32094,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -43412,7 +43412,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -43525,7 +43525,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -43638,7 +43638,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -43751,7 +43751,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -43864,7 +43864,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -43977,7 +43977,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -44090,7 +44090,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -44203,7 +44203,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -44316,7 +44316,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -44429,7 +44429,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -44542,7 +44542,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -44655,7 +44655,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -44768,7 +44768,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -44881,7 +44881,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -44994,7 +44994,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -45107,7 +45107,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -45220,7 +45220,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -45333,7 +45333,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -45446,7 +45446,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -45559,7 +45559,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -45672,7 +45672,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -45785,7 +45785,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -45898,7 +45898,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -46011,7 +46011,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -46124,7 +46124,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -46237,7 +46237,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -46350,7 +46350,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -46463,7 +46463,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -46576,7 +46576,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 3.3.2
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.analytics@3.3.2
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -54265,7 +54265,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.3.4
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.cinemachine@2.3.4
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.cinemachine@2.3.4
         m_AssetPath: Packages/com.unity.cinemachine
         m_Name: com.unity.cinemachine
         m_DisplayName: Cinemachine
@@ -54358,7 +54358,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.3.4
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.cinemachine@2.3.4
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.cinemachine@2.3.4
         m_AssetPath: Packages/com.unity.cinemachine
         m_Name: com.unity.cinemachine
         m_DisplayName: Cinemachine
@@ -54451,7 +54451,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.3.4
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.cinemachine@2.3.4
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.cinemachine@2.3.4
         m_AssetPath: Packages/com.unity.cinemachine
         m_Name: com.unity.cinemachine
         m_DisplayName: Cinemachine
@@ -54656,7 +54656,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -54730,7 +54730,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -54804,7 +54804,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -54878,7 +54878,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -54952,7 +54952,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -61434,7 +61434,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -61496,7 +61496,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -61558,7 +61558,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -61620,7 +61620,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -63374,7 +63374,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -63437,7 +63437,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -63500,7 +63500,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -63563,7 +63563,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -78890,7 +78890,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -79022,7 +79022,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -79154,7 +79154,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -79286,7 +79286,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -79418,7 +79418,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -79550,7 +79550,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -79682,7 +79682,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -79814,7 +79814,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -79946,7 +79946,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -80078,7 +80078,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -80210,7 +80210,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -80342,7 +80342,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -80474,7 +80474,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -80606,7 +80606,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -80738,7 +80738,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -80870,7 +80870,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -81002,7 +81002,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -81134,7 +81134,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -81266,7 +81266,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -81398,7 +81398,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -81530,7 +81530,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -81662,7 +81662,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.6
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.purchasing@2.0.6
         m_AssetPath: Packages/com.unity.purchasing
         m_Name: com.unity.purchasing
         m_DisplayName: In App Purchasing
@@ -90975,7 +90975,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -91126,7 +91126,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -91277,7 +91277,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -91428,7 +91428,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -91579,7 +91579,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -91730,7 +91730,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -91881,7 +91881,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -92032,7 +92032,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -92183,7 +92183,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -92334,7 +92334,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -92485,7 +92485,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -92636,7 +92636,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -92787,7 +92787,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -92938,7 +92938,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -93089,7 +93089,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -93240,7 +93240,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -93391,7 +93391,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -93542,7 +93542,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -93693,7 +93693,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -93844,7 +93844,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -93995,7 +93995,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -94146,7 +94146,7 @@ MonoBehaviour:
         m_IsDirectDependency: 0
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -108312,8 +108312,8 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_DatePublishedTicks: 636930181110000000
       IsInstalled: 0
-    listPackagesVersion: 20
-    listPackagesOfflineVersion: 19
+    listPackagesVersion: 39
+    listPackagesOfflineVersion: 38
     searchOperationOngoing: 0
     listOperationOngoing: 0
     listOperationOfflineOngoing: 0
@@ -108566,9 +108566,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 377
-    width: 462
-    height: 386
+    y: 392
+    width: 461
+    height: 414
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -108583,20 +108583,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Art/Character
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Art/Character
+  - Assets/Scripts
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: D:\Unity Projects\CommunityGameJam2019_BitByBit\AntiPlatformer
+  m_LastProjectPath: C:\Users\Tyler\source\repos\CommunityGameJam2019_BitByBit\AntiPlatformer
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 44470000
-    m_LastClickedID: 18244
-    m_ExpandedIDs: 00000000ac440000b2440000da460000444700007c4e0000bc4f000080510000e25500003e570000d65700004c590000ea590000005b000000ca9a3b
+    m_SelectedIDs: f64f0000
+    m_LastClickedID: 20470
+    m_ExpandedIDs: 00000000e4440000ea440000b44e0000b451000016560000725700000a580000805900001e5a0000345b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -108624,7 +108624,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ac440000b2440000da4600007c4e0000bc4f000080510000e25500003e570000d65700004c590000ea590000005b0000
+    m_ExpandedIDs: 00000000e4440000ea44000012470000b44e0000f44f0000b451000016560000725700000a580000805900001e5a0000345b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -108655,18 +108655,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c62300009e5400008a5b0000445e0000124400003c5500000000000078510000c85e00001c430000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Scripts
+      m_OriginalName: Scripts
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 20470
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 4}
     m_CreateAssetUtility:
@@ -108679,7 +108679,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 272
+  m_DirectoriesAreaWidth: 112
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -108704,7 +108704,7 @@ MonoBehaviour:
     x: 1366
     y: 73
     width: 552
-    height: 690
+    height: 733
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -108739,15 +108739,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 462
-    height: 285
+    width: 461
+    height: 300
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 1c430000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 0cf5ffffa85c0000c05c0000
+      m_SelectedIDs: fa5c0000
+      m_LastClickedID: 23802
+      m_ExpandedIDs: bcf4ffff2c5d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -108792,10 +108792,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 462
+    x: 461
     y: 73
-    width: 902
-    height: 690
+    width: 903
+    height: 733
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 38cad02d795f5514c93722d2dc44773c
@@ -108807,9 +108807,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 8.062978, y: -7.7127748, z: -66.83208}
+    m_Target: {x: 0.005264685, y: -6.323468, z: -72.25}
     speed: 2
-    m_Value: {x: 8.062978, y: -7.7127748, z: -66.83208}
+    m_Value: {x: 0.005264685, y: -6.323468, z: -72.25}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -108842,9 +108842,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 5.820061
+    m_Target: 59.991673
     speed: 2
-    m_Value: 5.820061
+    m_Value: 59.991673
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -108891,10 +108891,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 462
+    x: 461
     y: 73
-    width: 902
-    height: 690
+    width: 903
+    height: 733
   m_ViewDataDictionary: {fileID: 0}
   m_VSyncEnabled: 0
   m_MaximizeOnPlay: 0
@@ -108907,10 +108907,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -451
-    m_HBaseRangeMax: 451
-    m_VBaseRangeMin: -336.5
-    m_VBaseRangeMax: 336.5
+    m_HBaseRangeMin: -451.5
+    m_HBaseRangeMax: 451.5
+    m_VBaseRangeMin: -358
+    m_VBaseRangeMax: 358
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -108928,25 +108928,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 902
-      height: 673
-    m_Scale: {x: 1.5263793, y: 1.5263793}
-    m_Translation: {x: 451, y: 336.5}
+      width: 903
+      height: 716
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 451.5, y: 358}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -295.47046
-      y: -220.45634
-      width: 590.9409
-      height: 440.9127
+      x: -451.5
+      y: -358
+      width: 903
+      height: 716
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 902, y: 690}
+  m_LastWindowPixelSize: {x: 903, y: 733}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
@@ -108973,7 +108973,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 729
+    y: 825
     width: 1920
-    height: 216
+    height: 176
   m_ViewDataDictionary: {fileID: 0}

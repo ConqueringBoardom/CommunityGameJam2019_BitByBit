@@ -9,7 +9,10 @@ public class EnemyAI : MonoBehaviour
     public Transform target;
 
     public float speed = 200f;
+    public float jumpPower = 20f;
     public float nextWaypointDistance = 3f;
+    private bool grounded = false;
+    private Vector3 launchPad;
 
     public Transform enemyGfx;
 
@@ -44,6 +47,11 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
+    void Jump()
+    {
+        rb.AddForce(new Vector3(0, jumpPower, 0), ForceMode2D.Impulse);
+    }
+
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -59,9 +67,14 @@ public class EnemyAI : MonoBehaviour
             reachedEndOfPath = false;
 
         Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;
-        Vector2 force = direction * speed * Time.deltaTime;
+        Vector2 xDirection = new Vector2(direction.x, 0f);
+        Vector2 force = xDirection * speed * Time.deltaTime;
 
         rb.AddForce(force);
+        if (path.vectorPath[currentWaypoint].y > rb.position.y + 2.5 && grounded)
+        {
+            Jump();
+        }
 
         float distance = Vector2.Distance(rb.position, path.vectorPath[currentWaypoint]);
 
@@ -73,5 +86,17 @@ public class EnemyAI : MonoBehaviour
             enemyGfx.localScale = new Vector3(-1f, 1f, 1f);
         else if (rb.velocity.x <= -0.01f)
             enemyGfx.localScale = new Vector3(1f, 1f, 1f);
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        launchPad = collision.GetContact(0).normal;
+        grounded = true;
+    }
+
+    void OnCollisionExit2D()
+    {
+        launchPad = new Vector3(0, 0, 0);
+        grounded = false;
     }
 }
