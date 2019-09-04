@@ -54,7 +54,7 @@ public class playerMovement : MonoBehaviour
         {
             Debug.Log(string.Format("{0}, {1}", Input.GetButtonDown("Jump"), grounded));
 
-            if (_rigidbody.velocity.y == 0)
+            if (_rigidbody.velocity.y < 0.01 && _rigidbody.velocity.y > -0.01)
             {
                 Jump();
             }
