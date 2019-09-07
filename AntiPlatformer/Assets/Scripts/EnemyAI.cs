@@ -13,6 +13,8 @@ public class EnemyAI : MonoBehaviour
     public float nextWaypointDistance = 3f;
     private bool grounded = false;
     private Vector3 launchPad;
+    public bool flying = false;
+    private Vector2 force;
 
     public Transform enemyGfx;
 
@@ -34,13 +36,13 @@ public class EnemyAI : MonoBehaviour
 
     void UpdatePath()
     {
-        if(seeker.IsDone())
+        if (seeker.IsDone())
             seeker.StartPath(rb.position, target.position, OnPathComplete);
     }
 
     void OnPathComplete(Path p)
     {
-        if(!p.error)
+        if (!p.error)
         {
             path = p;
             currentWaypoint = 0;
@@ -67,14 +69,28 @@ public class EnemyAI : MonoBehaviour
             reachedEndOfPath = false;
 
         Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;
-        Vector2 xDirection = new Vector2(direction.x, 0f);
-        Vector2 force = xDirection * speed * Time.deltaTime;
+        if (flying)
+        {
+            if (rb.gravityScale == 0)
+            {
+                force = direction * speed * Time.deltaTime;
+            }
+            else
+            {
+                Debug.Log("Gravity Needs To Be Set to 0 for Flying Enemies");
+            }
+        }
+        else
+        {
+            Vector2 xDirection = new Vector2(direction.x, 0f);
+            force = xDirection * speed * Time.deltaTime;
+            if (path.vectorPath[currentWaypoint].y > rb.position.y + 2.5 && grounded)
+            {
+                Jump();
+            }
+        }
 
         rb.AddForce(force);
-        if (path.vectorPath[currentWaypoint].y > rb.position.y + 2.5 && grounded)
-        {
-            Jump();
-        }
 
         float distance = Vector2.Distance(rb.position, path.vectorPath[currentWaypoint]);
 
