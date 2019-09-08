@@ -39,7 +39,13 @@ public class playerMovement : MonoBehaviour
     {
         float translate = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
         // _transform.Translate(translate, 0, 0);
-        _rigidbody.velocity = new Vector3((_rigidbody.velocity.x + translate)/2, _rigidbody.velocity.y, 0);
+        _rigidbody.velocity = new Vector3((_rigidbody.velocity.x + translate) / 2, _rigidbody.velocity.y, 0);
+        if ((_rigidbody.velocity.y < (-0.8f * jumpPower) && grounded))
+        {
+            _rigidbody.AddForce(new Vector3(0, 0.05f * jumpPower, 0) - launchPad, ForceMode2D.Impulse);
+            Debug.Log("sliding");
+            Debug.Log(_rigidbody.velocity.y);
+        }
 
     }
 
@@ -58,8 +64,12 @@ public class playerMovement : MonoBehaviour
             {
                 Jump();
             }
-            else if (grounded && _rigidbody.velocity.y <= 0 && _rigidbody.velocity.magnitude < jumpPower)
+            else if (grounded && _rigidbody.velocity.y <= 0)
             {
+                if (_rigidbody.velocity.y < 0 && _rigidbody.velocity.y > (-1f * jumpPower))
+                {
+                    Jump();
+                }
                 Jump();
             }
         }
