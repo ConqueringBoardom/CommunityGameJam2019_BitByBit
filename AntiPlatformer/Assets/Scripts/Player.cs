@@ -37,7 +37,9 @@ public class Player : MonoBehaviour
     public void DamageKnockback(Vector3 knockbackDir, float knockbackDistance, int damageAmount)
     {
         //transform.position += knockbackDir * knockbackDistance;
-        rb.AddForce(knockbackDir, ForceMode2D.Impulse);
+        rb.velocity.Set(0f, 0f);
+        Debug.Log("Knockback Force: " + (knockbackDir * knockbackDistance));
+        rb.AddForce(knockbackDir * knockbackDistance, ForceMode2D.Impulse);
         DamageFlash();
         HeartsHealthVisual.heartsHealthSystemStatic.Damage(damageAmount);
     }
