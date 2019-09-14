@@ -1,7 +1,4 @@
 ﻿/*
--Fix Health System Position to be Relative to Camera
--Fix Spike Damage
--Fix Spike Knockback
 -Decide how best to organize Health scripts(what do enemies use?)
 */
 

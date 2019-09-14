@@ -166,7 +166,7 @@ GameObject:
   - component: {fileID: 332331338}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -313,9 +313,9 @@ GameObject:
   - component: {fileID: 374490473}
   - component: {fileID: 374490472}
   - component: {fileID: 374490471}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Spikes (2)
-  m_TagString: Untagged
+  m_TagString: Damage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2568,9 +2568,9 @@ GameObject:
   - component: {fileID: 781389944}
   - component: {fileID: 781389943}
   - component: {fileID: 781389942}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Spikes (1)
-  m_TagString: Untagged
+  m_TagString: Damage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2709,7 +2709,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAACQn+vDDaYwbAIAABUFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1zmzAQ/SsenesMJhji3lrHcXrIx8Tt5MJFlhajsZAYScR2Mv7vXQkw1OWCePv19u2KLyKUrYE5bdZG8CfNgXyfEH8m3yaD8RGOdKfVRnxC7/MuuCu9Ew0+b9QJjfjMh1ldgTOC/VA76Z0jBBslCm2qFd/BUltnES6otIAmo52PVgh9TcgRX9OFDznhKc786RNPi2hyxiMD5cCMXG9vIv/Mk7suZBq3SNwFosc8S2+jJM5W0ygLWRrFJK1q4L6lIVkSdzlu0+CmsNnOwzfGtJTCdkyJO9VBiU1dggEvBRcUGw/soptsjkgJYlc638c4/KUoLLhOGENP98KghG1e8lO3ulbU7ltmH1Q2vlI8b1m1SZ/+s09nwVwYXT32dWeRr+FKwfZv9MSodSPhx/D9wH0WBDpQuadbCe8lqGe9NrpRHI3OND60sRDfD5+X1pYlsP2At1SvwKYeFO/n3E/Z93AO3R+XUlTbIGXSAhupg+JhOcDgbH4h4bA6tkuBqGfxx8JvuhvvWGd4EMY6NHVdKk9vqxvjXckqaOa7adxSGwUB7kjXoKh0p1dM465HeGUblb2yPFB/m7rina2/JFchAR78o+jK9KoPl2HZUh+ewJYvjZNCwUDaG55Rp6VWqt2wsSZ92KYxBWWjsF0j+L+rRVLGWbJIoyRK7mYZS6fbYpEuWMLnBUuLRTYjYfeEwj6pfG2JdvLg1NSQXOGe9T+ZydrQOmw7N/SwFp+VHhMUqtAbZgDUS5viwhwMVsGLyVdcoEIbcE6oMHDylROp2R54fqmZh1ZXR2doPmTJSS0+tPNITpbht5KTMzn/BVBLAwQUAAAICAAAkJ/rb/l7UWwAAAB3AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9Kz0FFQSi9KLMgoBgoYgjilmSkgdrSSWXJKsomlmYGJgYmFoXmymW5SmqWZZbJJimlaslmapbmhUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAACQn+vDDaYwbAIAABUFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAACQn+tv+XtRbAAAAHcAAAAJACQAAAAAAAAAAAAAALkCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAcAMAAAAA
+    dataString: UEsDBBQAAAgIAACQn+sWyWoxbAIAABQFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1z2jAQ/SuMziVjHGOH3lpCSA/5mNBOLr4IaY01yJJHkgMkw3/vSraxS7kgv/3Qe2/X/iJC2RqY02ZtBH/SHMj3CfFn8m0yBB/hSHdabcQn9DnvgrvSJ9GQ80ad0IjPfJnVFTgj2A+1kz45QrBRotCmWvEdLLV1FuGCSgsYMtr5aoXQ14Qc8W+68CUnPMWZP33iaRFNznhkoByYUertTeR/8+SuK5nGLRJ3hZgxz9LbKImz1TTKQpdGMUmrGriXNDRL4q7HbRrSFIrtMrwwpqUUtmNK3KkOTmzqEgx4K7igKDywi26yOSIliF3pvI5x+UtRWHCdMYae7oVBC9u+5Kdufa2o3bfMPqhs/E3xvGXVNn36Lz6dhXBhdPXY3zuL/B2uFGz/Rk+MWjcyfgzfD9xnwaADlXu6lfBegnrWa6MbxTHoTONLGwvx/fB4kbYsge0HvKV6BTb14Hg/537KXsM5qD8upai2wcqkBTZSB8fDcoDB2fxCwmF1bNcCUc/ij4XfdDfesS7wIIx1GOpUKk9vqxvjU8kqeObVNG6pjYIAd6RrUFS60yu2cdcjvIqNrr2KPFD/NnWXd7H+JbkqCfCQH0VXoVd9uAzLlvrwBLZ8aZwUCgbSPvCMPi21Uu2GjT3pyzaNKSgble0awf9dLZIyzpJFGiVRcjfLWDrdFot0wRI+L1haLLIZCbsnFOqk8rUl2tmDU1NDc4V71n9kJmtD67Dt3NDDWnxWemS5UIXeMAOgXtoOF+Jg8BJ8L/mKCzRoA84JFeZNvnIiNdsDzy+N8qB0dXSG5kOXnNTiQzuP5GQZvio5OZPzX1BLAwQUAAAICAAAkJ/rb/l7UWwAAAB3AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9Kz0FFQSi9KLMgoBgoYgjilmSkgdrSSWXJKsomlmYGJgYmFoXmymW5SmqWZZbJJimlaslmapbmhUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAACQn+sWyWoxbAIAABQFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAACQn+tv+XtRbAAAAHcAAAAJACQAAAAAAAAAAAAAALkCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAcAMAAAAA
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -2926,7 +2926,7 @@ GameObject:
   - component: {fileID: 1068556301}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2986,7 +2986,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: bba96713cd76cc34992585cc6e9e54e2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3216,9 +3216,9 @@ GameObject:
   - component: {fileID: 1399000236}
   - component: {fileID: 1399000235}
   - component: {fileID: 1399000237}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Spikes
-  m_TagString: Untagged
+  m_TagString: Damage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3491,7 +3491,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!61 &1642427924
 BoxCollider2D:
@@ -3758,11 +3758,11 @@ GameObject:
   - component: {fileID: 2007501809}
   m_Layer: 0
   m_Name: EnemyV2
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!50 &2007501809
 Rigidbody2D:
   serializedVersion: 4
@@ -3900,7 +3900,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!61 &2033831957
 BoxCollider2D:

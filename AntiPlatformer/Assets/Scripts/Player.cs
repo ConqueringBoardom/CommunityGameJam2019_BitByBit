@@ -4,48 +4,51 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public static Player instance;
-
-    private Color materialTintColor;
-    private Material material;
+    private SpriteRenderer sr;
     private Rigidbody2D rb;
+    private float bounceVelocity;
+    private bool invincibility = false;
     
     private void Awake()
     {
-        instance = this;
-        rb = GetComponent(typeof(Rigidbody2D)) as Rigidbody2D;
-        material = transform.GetComponent<SpriteRenderer>().material;
-        materialTintColor = new Color(1, 0, 0, 0);
+        rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
     }
 
-    private void FixedUpdate()
+    private IEnumerator Flash()
     {
-        if (materialTintColor.a > 0)
-        {
-            float tintFadeSpeed = 6f;
-            materialTintColor.a -= tintFadeSpeed * Time.deltaTime;
-            material.SetColor("_Tint", materialTintColor);
-        }
+        sr.color = new Color(sr.color.r, sr.color.b, sr.color.g, 0f);
+        yield return new WaitForSeconds(0.2f);
+        sr.color = new Color(sr.color.r, sr.color.b, sr.color.g, 1f);
     }
 
-    private void DamageFlash()
+    public void DamageFlash()
     {
-        materialTintColor = new Color(1, 0, 0, 1f);
-        material.SetColor("_Tint", materialTintColor);
+        StartCoroutine(Flash());
     }
 
-    public void DamageKnockback(Vector3 knockbackDir, float knockbackDistance, int damageAmount)
+    public bool GetInvincibilityState()
     {
-        //transform.position += knockbackDir * knockbackDistance;
-        rb.velocity.Set(0f, 0f);
-        Debug.Log("Knockback Force: " + (knockbackDir * knockbackDistance));
-        rb.AddForce(knockbackDir * knockbackDistance, ForceMode2D.Impulse);
-        DamageFlash();
-        HeartsHealthVisual.heartsHealthSystemStatic.Damage(damageAmount);
+        return invincibility;
     }
 
-    public Vector3 GetPosition()
+    public void SetInvincibilityState(bool state)
     {
-        return transform.position;
+        invincibility = state;
+        StartCoroutine(InvincibilityTimeout());
+    }
+
+    private IEnumerator InvincibilityTimeout()
+    {
+        yield return new WaitForSeconds(0.5f);
+        SetInvincibilityState(false);
+    }
+
+    public float GetBounceVelocity(Rigidbody2D rb, float minimum, float multiplier)
+    {
+        if (Mathf.Abs(rb.velocity.y) < 9f) // If velocity is too small set a minimum bounce
+            return Mathf.Abs(rb.velocity.y) + minimum;
+        else // Otherwise bounce 1.8 times your velocity
+            return Mathf.Abs(rb.velocity.y) * multiplier;
     }
 }

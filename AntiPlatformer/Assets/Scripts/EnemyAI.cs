@@ -15,8 +15,10 @@ public class EnemyAI : MonoBehaviour
     private Vector3 launchPad;
     public bool flying = false;
     private Vector2 force;
+    private bool invincibility = false;
 
     public Transform enemyGfx;
+    private SpriteRenderer sr;
 
     Path path;
     int currentWaypoint = 0;
@@ -30,6 +32,7 @@ public class EnemyAI : MonoBehaviour
     {
         seeker = GetComponent<Seeker>();
         rb = GetComponent<Rigidbody2D>();
+        sr = this.enemyGfx.GetComponent<SpriteRenderer>();
 
         InvokeRepeating("UpdatePath", 0f, .5f);
     }
@@ -102,6 +105,50 @@ public class EnemyAI : MonoBehaviour
             enemyGfx.localScale = new Vector3(-1f, 1f, 1f);
         else if (rb.velocity.x <= -0.01f)
             enemyGfx.localScale = new Vector3(1f, 1f, 1f);
+    }
+
+    public float GetBounceVelocity(Rigidbody2D rb, float minimum, float multiplier)
+    {
+        if (Mathf.Abs(rb.velocity.y) < 9f) // If velocity is too small set a minimum bounce
+            return Mathf.Abs(rb.velocity.y) + minimum;
+        else // Otherwise bounce 1.8 times your velocity
+            return Mathf.Abs(rb.velocity.y) * multiplier;
+    }
+
+    private IEnumerator Flash()
+    {
+        sr.color = new Color(sr.color.r, sr.color.b, sr.color.g, 0f);
+        yield return new WaitForSeconds(0.2f);
+        sr.color = new Color(sr.color.r, sr.color.b, sr.color.g, 1f);
+    }
+
+    public void DamageFlash()
+    {
+        StartCoroutine(Flash());
+    }
+
+    public bool GetInvincibilityState()
+    {
+        return invincibility;
+    }
+
+    public void SetInvincibilityState(bool state)
+    {
+        invincibility = state;
+    }
+
+    private void Update()
+    {
+        StartCoroutine(InvincibilityTimeout());
+    }
+
+    private IEnumerator InvincibilityTimeout()
+    {
+        if (invincibility)
+        {
+            yield return new WaitForSeconds(0.5f);
+            SetInvincibilityState(false);
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
