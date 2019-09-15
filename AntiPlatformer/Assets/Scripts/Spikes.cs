@@ -6,8 +6,8 @@ public class Spikes : MonoBehaviour
 {
     [SerializeField] private int damageAmount = 1;
     private float bounceVelocity;
-    private Player player;
-    private EnemyAI enemy;
+    private PlayerBase player;
+    private EnemyBase enemy;
     private Rigidbody2D rb;
     private bool invincibility = false;
 
@@ -16,7 +16,7 @@ public class Spikes : MonoBehaviour
         rb = collision.GetComponent<Rigidbody2D>();
         switch (collision.tag) {
             case "Player":
-                player = collision.GetComponent<Player>();
+                player = collision.GetComponent<PlayerBase>();
                 invincibility = player.GetInvincibilityState();
                 Debug.Log(invincibility);
                 if (player != null && !invincibility)
@@ -29,7 +29,7 @@ public class Spikes : MonoBehaviour
                 }
                 break;
             case "Enemy":
-                enemy = collision.GetComponent<EnemyAI>();
+                enemy = collision.GetComponent<EnemyBase>();
                 invincibility = enemy.GetInvincibilityState();
                 if (!invincibility)
                 {
